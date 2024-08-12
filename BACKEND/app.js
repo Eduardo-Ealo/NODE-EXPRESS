@@ -10,7 +10,7 @@ app.use(cors());
 const pool =  mysql.createPool({
     host: 'localhost',
     user: 'root',
-    database: 'adso',
+    database: 'ejercicio1',
   });
 //conectar a la base de datos y tarer informacion
 app.get('/login',async (req,res)=>{
